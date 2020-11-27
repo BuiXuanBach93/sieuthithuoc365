@@ -1,0 +1,120 @@
+.user .InformationPerson {
+    background: #fff;
+}
+.user .InformationPerson h3 {
+    background: #324f8a;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    position:relative;
+    font-size: 14px;
+    padding-left: 38px;
+    width: 30%;
+    margin-bottom: 0;
+}
+.user .InformationPerson h3 i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #263c6a;
+    padding: 13px 15px;
+}
+.user .InformationPerson .underline {
+    background: #324f8a;
+    height: 2px;
+}
+.user .userAvatar {
+    margin-top: 45px;
+    text-align: center;
+    border-right: 2px solid #c9c9c9;
+}
+.user .userAvatar .addAvatar {
+    margin-top: 22px;
+}
+.user .formInformation {
+    margin-top: 35px;
+}
+.userSiderBar {
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: none;
+    margin-top: 15px;
+}
+.userSiderBar li {
+    padding: 16px 13px;
+    background: #fff;
+    cursor: pointer;
+}
+.userSiderBar li:hover {
+    background: none;
+}
+.userSiderBar li.active {
+    background: none;
+}
+.userSiderBar li.active:hover {
+    background: #fff;
+}
+.userSiderBar li a {
+    color: #000;
+    font-weight: 600;
+}
+.user .resetPassword {
+    background: #fff;
+    padding: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.help-block {
+    color: red;
+}
+.user .orderPerson {
+    background: none;
+}
+.user .orderPerson h2 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.user .orderPerson .orderItem {
+    background: #fff;
+    margin-bottom: 15px;
+}
+.user .orderPerson .orderItem .item {
+    margin-top: 40px;
+}
+.user .orderPerson .orderItemFooter {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.user .orderPerson .orderItem .btn {
+    border-radius: 0;
+    margin-left: 15px;
+}
+.userAvatarSlide {
+    text-align: center;
+    padding: 20px 5px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.userAvatarSlide .userInfo {
+    border-bottom: #e5e5e5 1px solid;
+    margin-bottom: 15px;
+}
+.userAvatarSlide .userInfo p {
+    margin: 0 0 10px;
+}
+.userAvatarSlide .inforOrder {
+    text-align: left;
+    padding-left: 20px;
+}
+.userAvatarSlide .inforOrder h3 {
+    font-size: 30px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}

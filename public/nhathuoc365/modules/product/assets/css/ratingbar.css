@@ -1,0 +1,70 @@
+/* EXAMPLE 1 - DEFAULT CONFIGURATION */
+
+.ratingbar_wrapper {
+	width: 100px; // default value
+	height: 20px;
+	background-color: #ccc;
+	border: 3px #ccc solid;
+	overflow: hidden;
+}
+
+.ratingbar_inner {
+	width: 0px;
+	height: 20px;
+	border: 5px white;
+	background-color: #1a7ec4;
+}
+
+.ratingbar_text {
+	color: white;
+	font-size: 60%;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+
+/* EXAMPLE 2 - WEB 2.0 - ADVANCED CONFIGURATION */
+
+.wrapper-quality {
+	width: 100px; // default value
+	height: 20px;
+	border: 2px white solid;
+	overflow: hidden;
+	
+	/* CSS3 gradient background */
+	background: #eaeaea; /* for non-css3 browsers */
+}
+
+.inner-quality {
+	width: 0px;
+	height: 14px;
+	border: 5px white;
+	background-color: #1a7ec4;
+}
+
+.rating-quality {
+	font-size: 1.2em;
+	color: white;
+	padding-top: 5px;
+	vertical-align: middle;
+	text-align: center;
+	font-family: Verdana;
+}
+
+
+/* EXAMPLE 3 - HEART RATING */
+
+
+.star-empty {
+	width: 130px; // default value
+	height: 30px;
+	overflow: hidden;
+	background-image: url("images/star-empty.png");
+	background-repeat: repeat-x;
+}
+
+.star-full {
+	width: 0px;
+	height: 30px;
+	background: url("../images/resultr.png") no-repeat 3px 5px;
+}

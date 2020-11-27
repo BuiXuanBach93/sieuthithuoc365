@@ -1,0 +1,25 @@
+.contain_slide {
+  margin: 20px 0; }
+  @media (max-width: 414px) {
+    .contain_slide {
+      margin: 10px 0; } }
+  .contain_slide #slide_homel .carousel-control {
+    background-image: none; }
+    .contain_slide #slide_homel .carousel-control .prev {
+      background: url("../images/prev.png") no-repeat 1px;
+      width: 50px;
+      height: 50px;
+      display: block;
+      position: absolute;
+      top: 40%;
+      left: 20px; }
+    .contain_slide #slide_homel .carousel-control .next {
+      background: url("../images/next.png") no-repeat 1px;
+      width: 50px;
+      height: 50px;
+      display: block;
+      position: absolute;
+      top: 40%;
+      right: 20px; }
+
+/*# sourceMappingURL=style_default.css.map */

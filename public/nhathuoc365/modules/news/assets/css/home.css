@@ -1,0 +1,47 @@
+#aside{
+    float: right !important;
+}
+#news-content{
+  
+    float: left !important;
+    padding-right: 10px;
+}
+.title_news{
+    color:#333;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e5e5e5;
+    margin-bottom: 15px;
+    padding: 5px 0 5px 40px;
+    background: url(../images/bg_tit_new.png) no-repeat 1px;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+}
+.title_news a{
+    color:#333;
+    text-decoration: none;
+}
+.title_news:before{
+    content: '';
+    border-bottom: 3px solid #71bf44;
+    width: 105px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+.breadcrumbs {
+    margin-right: 0 !important;
+    margin-top: 15px;
+}
+@media (max-width:414px){
+    #news-content{
+        width:100% !important;
+        padding: 10px;
+    }
+    .block-product-aside_slideshow_price{
+        display:none;
+    }
+    #news-content .news-category h1 span{
+        margin-left: 0;
+    }
+}

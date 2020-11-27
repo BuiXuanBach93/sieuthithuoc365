@@ -1,0 +1,13 @@
+.block-menu-menu_header ul{
+    list-style: none;
+    margin: 0; padding: 0;
+    color: #ffffff;
+}
+.block-menu-menu_header ul li{
+    margin: 0; padding: 0;
+    display: block; float: left;
+}
+.block-menu-menu_header ul li a{
+    color: #333;
+    padding-right: 5px;
+}

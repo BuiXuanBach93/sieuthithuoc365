@@ -1,0 +1,46 @@
+.help_home{
+    margin-bottom: 20px;
+}
+.help_home .foot_banner .banner_img {
+    background: url(../images/footBanner.jpg);
+    padding: 15px 15px;
+}
+.foot_banner .banner_img .gioithieu {
+    width: 1110px;
+    height: 280px;
+}
+.foot_banner .banner_img .gioithieu .col_box{
+    text-align: center;
+    padding-top: 45px;
+}
+.foot_banner .banner_img .gioithieu .col_box .title_1{
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 25px;
+        display: block;
+    color: #333;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.foot_banner .banner_img .gioithieu .col_box .title_1:hover{
+    text-decoration: none;
+    color: #71bf44;
+}
+.foot_banner .banner_img .gioithieu .col_box .title_1:before{
+    position: absolute;
+    border-bottom: 1px solid #71bf44;
+    width: 50px;
+    top: 30px;
+    left: 140px;
+    content: '';
+}
+@media (max-width:414px){
+    .foot_banner .banner_img .gioithieu{
+        width: 100%;
+    }
+    .help_home .foot_banner .banner_img {
+        background: #dfefa9;
+        padding: 15px 15px;
+        border: 3px solid #76ab1b;
+    }
+}

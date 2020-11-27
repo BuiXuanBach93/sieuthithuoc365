@@ -1,0 +1,56 @@
+.send_phone{
+    width: 915px;
+    margin: 0 auto;
+
+}
+
+.send_phone  p{
+    font-size: 14px;
+    color: #fff;
+    padding: 12px 0;
+}
+.send_phone  input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    float: left;
+    margin-top: 8px;
+    height: 30px;
+}
+.send_phone a{
+      background: #71bf44;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 8px;
+    display: block;
+    float: right;
+}
+@media (max-width:414px){
+    .send_phone{
+     width: 100%;
+    }
+    .send_phone p{
+        display: none;
+    }
+    .send_phone  input{
+        width: 75%;
+        margin: 3px 0;
+    }
+    .send_phone a{
+        margin-top: 3px;
+         padding: 4px 10px;
+    }
+
+}
+@media (max-width:320px){
+    .send_phone a{
+        padding: 7px 15px;
+        margin-left: 0px;
+    }
+    
+}

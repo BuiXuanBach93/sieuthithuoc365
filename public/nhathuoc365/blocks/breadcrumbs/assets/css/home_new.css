@@ -1,0 +1,115 @@
+.breadcrumb-item .home{
+    /*background: url('../images/breakbrum_06.png') no-repeat 1px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.breadcrumb-item .home:after{
+    background: url('../images/arrow.png') no-repeat 1px;
+    width: 25px;
+    height: 50px;
+    content: "";
+    position: absolute;
+    /* background: #777; */
+    transform: rotate(0deg); 
+    right: -20px;
+    top: 0px;
+}
+
+.breadcrumbs ul li a{
+    text-transform:none;
+    color: #000;
+}
+.breadcrumbs ul li a:hover{
+    text-decoration: none;
+    color: #ff9600;
+}
+.breadcrumbs ul li a:after {
+    width: 10px;
+    height: 14px;
+    content: "";
+    position: absolute;
+    background: url(../images/br_04.png) no-repeat 1px;
+    transform: rotate(0deg);
+    right: -15px;
+    top: 17px;
+}
+
+.breadcrumb-item .home_prd{
+    background: url('../images/breakbrum_03.png') no-repeat 1px;
+    padding-left: 45px;
+    padding-right: 75px;
+}
+.breadcrumb-item .home_prd:after{
+    background: url('../images/br_03.png') no-repeat 1px;
+    width: 25px;
+    height: 50px;
+    content: "";
+    position: absolute;
+    /* background: #777; */
+    transform: rotate(0deg); 
+    right: -20px;
+    top: 0px;
+}
+.item_home{
+    position: relative;
+}
+.item_home .list_cat_prd{
+    position: absolute;
+    width: 220px;
+    top: 50px;
+    z-index: 99;
+    background: #eee;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 300px;
+    display: none;
+    transition: 1s;
+}
+
+.list_cat_prd::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background-color: rgba(119, 119, 119, 0.69);
+}
+
+.list_cat_prd::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: rgba(119, 119, 119, 0.69);
+}
+
+.list_cat_prd::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+
+.item_home .list_cat_prd .it_cat_pd{
+    height: auto;
+    cursor: pointer;
+    padding: 0 0 0 25px;
+    margin: 0;
+    display: inherit;
+    float: none;
+    border-bottom: 1px dotted #fefefe;
+}
+.item_home .list_cat_prd .it_cat_pd:hover{
+    background: #ddd;
+    color: #72b043;
+}
+.item_home .list_cat_prd a:before{
+    width: 10px;
+    height: 14px;
+    content: "";
+    position: absolute;
+    background: url(../images/br_04.png) no-repeat 1px;
+    transform: rotate(0deg);
+    left: 5px;
+    top: 17px;
+}
+.item_home .list_cat_prd a:after{
+    background: none;
+}

@@ -1,0 +1,19 @@
+.block-banner-default .item{
+    margin-bottom: 10px;
+    float:left;
+    /*padding-left: 7px;*/
+}
+.block-banner-default .item:first-child{
+
+    padding-left: 0px;
+    padding-right: 10px;
+}
+.block-banner-default .item:last-child{
+    margin-bottom: 0;
+}
+.block-banner-default .item:nth-child(2){
+    padding-right: 10px;
+}
+.block-banner-default .item:nth-child(4){
+    padding-right: 10px;
+}

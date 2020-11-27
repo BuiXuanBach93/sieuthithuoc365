@@ -1,0 +1,108 @@
+.breadcrumbs{
+      margin-right: 0 !important;
+    margin-top: 15px !important;
+}
+
+#contact-content {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 15px; }
+
+#contact-content .title_contact{
+      font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+#contact-content form {
+  width: 100%; }
+  #contact-content form .left {
+    width: 38%;
+    float: left;
+    padding-right: 20px;
+    position: relative; }
+    #contact-content form .left input {
+      width: 100%;
+      height: 38px;
+      border: 1px solid #e0dede;
+      margin-bottom: 14px;
+      padding-left: 10px; }
+    #contact-content form .left #txtCaptcha {
+      width: 39%;
+      float: left; }
+    #contact-content form .left img {
+      width: 40%;
+      float: left;
+      padding-left: 10px;
+      height: 38px;
+      max-width: 120px; }
+    #contact-content form .left span {
+      position: absolute;
+      right: -5px;
+      top: 10px; }
+  #contact-content form .right {
+    float: right;
+    width: 62%;
+    padding-bottom: 15px; }
+    #contact-content form .right textarea {
+      width: 100%;
+      height: 247px;
+      border: 1px solid #e0dede;
+      padding: 10px; }
+  #contact-content form p {
+    float: left;
+    padding-left: 10px; }
+    #contact-content form .btn-submit {
+      width: 100%;
+      height: 38px;
+      background: #ec1c24;
+      color: #fff;
+      font-size: 14px;
+      float: right;
+      border-radius: 3px;
+      text-align: center;
+      line-height: 35px; }
+
+.map {
+  position: relative;
+  padding: 20px 15px;
+  border: 1px solid #e8e8e8;
+  background: #fafafa;
+  margin: 25px 0; }
+  .map .info {
+    width: 270px;
+    position: absolute;
+    left: 15px;
+    top: 20px; }
+  .map .map-view {
+    width: 100%;
+    padding-left: 300px; }
+
+/*# sourceMappingURL=contact.css.map */
+@media (max-width: 768px){
+  width: 100%;
+    height: 38px;
+    background: #ec470d;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 35px;
+}
+
+@media (max-width: 500px){
+/*   #contact-content form .btn-submit{
+    width: 100%;
+    height: 38px;
+    background: #ec470d;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 35px;
+  }
+ */}

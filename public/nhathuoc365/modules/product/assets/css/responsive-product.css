@@ -1,0 +1,21 @@
+@media(max-width:750px){
+    .block-products-filter,.block-callme{
+        display: none;
+    }
+    .block-catsmenu .sidebar-heading{
+        position: relative;
+    }
+    .block-catsmenu .sidebar-heading .show-cat{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background: url(../images/show-more.png);
+        cursor: pointer;
+    }
+    .block-catsmenu .sidebar-content{
+        display: none;
+    }
+}
+

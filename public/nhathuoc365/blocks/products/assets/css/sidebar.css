@@ -1,0 +1,68 @@
+.block-product .aside-heading{
+    background: #54a8d2;
+    padding: 10px 0 10px 60px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 16px;
+}
+.block-product .aside-heading:before{
+    content: '';
+    width: 45px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #0073ad url(../images/sp_tb.png) no-repeat 10px;
+}
+.block-product .aside-heading:after{
+    left: 45px;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(82, 173, 31, 0);
+    border-left-color: #0073ad;
+    border-width: 5px;
+    margin-top: -5px;
+}
+.block-product .aside-content{
+    background: #fff;
+}
+.block-product .aside-content ul li{
+    list-style: none;
+    margin-right: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eeeeee;
+}
+.block-product .aside-content ul li:hover >.heading a{
+    text-decoration: none;
+    color: #54a8d2;
+}
+.block-product .aside-content ul li .heading{
+    padding: 10px 30px;
+    text-align: center;
+}
+.block-product .aside-content ul li .heading a{
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+}
+.block-product .aside-content ul li .heading a:hover{
+     text-decoration: none;
+    color: #54a8d2;
+}
+.block-product .aside-content ul li .price{
+    color: #ed1c24;
+    font-size: 14px;
+    line-height: 18px;
+}
+@media (max-width: 414px){
+    .block-product-aside_slideshow_price{
+        display: none;
+    }
+}

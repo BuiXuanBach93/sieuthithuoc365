@@ -1,0 +1,45 @@
+.block-catsmenu-news .sidebar-heading i{
+    padding-top: 6px !important;
+}
+.sidebar-heading-f{
+    background: #54a8d2;
+    padding: 10px;
+    padding-left: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+}
+.sidebar-heading-f:before{
+    content: ' ';
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    background: #0073ad url(../images/fillter.png) no-repeat 12px 15px;
+    left: 0;
+    top: 0;
+}
+.sidebar-heading-f:after{
+    content: ' ';
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    background: url(../images/fill_arrow.png) no-repeat 12px 10px;
+    left: 20px;
+    top: 0;
+}
+.sidebar-heading-f .show_mb{
+    background: url(../images/down.png) no-repeat 1px;
+    width: 13px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    display:none;
+}
+@media (max-width:414px){
+    .sidebar-heading-f .show_mb{
+        display:block;
+    }
+}

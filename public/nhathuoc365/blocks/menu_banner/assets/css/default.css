@@ -1,0 +1,35 @@
+.block-menu-banner .bmb-menu {
+    display: none; 
+    width: 255px;
+    float: left;
+    position: absolute;
+    top: 50px;
+    z-index: 999;
+}
+.show_add{
+    background: #71bf44;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.show_add >a{
+    color: #fff !important;
+    background: url('../images/down.png') no-repeat 17px !important;
+}
+.action_menu_cat{
+    display: block !important;
+}
+@media (max-width:414px){
+
+
+    .block-menu-banner .bmb-menu {
+        width: 97%;
+        left: 5px;
+    }
+    .action_menu_cat{
+        display: none !important;
+    }
+    .action_menu_cat_mb{
+        display: block !important;
+    }
+}

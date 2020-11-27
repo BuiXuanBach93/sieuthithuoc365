@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 24, 2018, 11:24:19 AM
+    Author     : NgoQuang
+*/
+
+.item .img_{
+    width: 100%;
+    float: left;
+}
+
+.item .img_ a img{
+    width: 100%;
+        height: 180px;
+}
+.item .inf_{
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+.item .inf_ a{
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    line-height: 18px;
+}
+.item .inf_ a:hover{
+    color: #71bf44;
+    text-decoration: none;
+}
+.item .inf_ .name_{
+    padding-top: 10px;
+        font-size: 14px;
+    color: #777777;
+}
+.item .inf_ .created_time{
+    background: url(../images/clock1.png) no-repeat 1px 5px;
+    padding-left: 25px;
+    color: #777777;
+    padding-top: 0;
+    float: left;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.item .inf_ .views{
+     padding-left: 25px;
+    color: #777777;
+    padding-top: 0;
+    font-size: 14px;
+}
+.story_heading{
+    border: 1px solid #ddd;
+    background: #71bf44;
+}
+.story_heading > a{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 10px 0 10px 65px;
+    display: block;
+    position: relative;
+}
+.story_heading > a:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #52ad1f url(../images/icon_title.png) no-repeat 10px;
+    width: 50px;
+    height: 100%;
+    left: 0px;
+    top: 0;
+}
+.story_heading > a:after{
+    left: 50px;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #52ad1f;
+    border-width: 5px;
+    margin-top: -5px;
+}
+.story_heading > a:hover{
+    text-decoration: none;
+}
+.block-news-content{
+    margin-top: 20px;
+}
+.block-news-content .owl-carousel-story .owl-item{
+    background: #fff;
+    min-height: 250px;
+}
+.block-news-content .owl-carousel-story .owl-controls{
+    position: absolute;
+    top: -70px;
+    right: 0;
+}
+.block-news-content .owl-carousel-story .owl-controls .owl-prev{
+    right: 55px;
+    position: absolute;
+    color: transparent;
+    background: url(../images/prev.png) no-repeat 1px;
+    width: 35px;
+    height: 60px;
+}
+.block-news-content .owl-carousel-story .owl-controls .owl-next{
+    right: 15px;
+    position: absolute;
+    color: transparent;
+    background: url(../images/next.png) no-repeat 1px;
+    width: 35px;
+    height: 60px;
+}
+
+
+
+.block-news-succes_story{
+    margin-bottom: 20px;
+}
+.block-news-succes_story_ct .story_heading {
+        background: #fe9144;
+}
+.block-news-succes_story_ct .story_heading >a:before{
+        background: #f06922 url(../images/icon_title.png) no-repeat 10px;
+}
+.block-news-succes_story_ct .story_heading >a:after{
+            border-left-color: #f06922;
+}
+@media (max-width: 414px){
+    .item .img_{
+        width: 100%;
+        float: left;
+    }
+    .item .inf_{
+        float: left;
+        width: 100%;
+    }
+
+}

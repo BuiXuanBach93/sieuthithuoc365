@@ -1,0 +1,61 @@
+.CropImg:before {
+	content: "";
+	display: block;
+	    padding-bottom: 100%;
+}
+.CropImgV:before {
+	padding-bottom: 100%;
+}
+.CropImg {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.CropImg .thumbs {
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.CropImg .thumbs img {
+	width: 100%;
+	min-height: 100%;
+	max-width: 150%;
+	max-height: none;
+	position: absolute;
+	z-index: 1;
+	    top: 181px;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.CropImg .Mark {
+	background: black;
+	opacity: 0;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+  	-moz-transition: all 1s ease; /* Firefox */
+  	-o-transition: all 1s ease; /* IE 9 */
+  	-ms-transition: all 1s ease; /* Opera */
+  	transition: all 1s ease;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+.CropImg:hover .Mark {
+	opacity: 0.4;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+  	-moz-transition: all 1s ease; /* Firefox */
+  	-o-transition: all 1s ease; /* IE 9 */
+  	-ms-transition: all 1s ease; /* Opera */
+  	transition: all 1s ease;
+}

@@ -1,0 +1,33 @@
+.block-products-seen{
+
+}
+.block-products-seen .block-heading{
+    height: 50px;
+    border-bottom: 2px solid #f7f5ef;
+    position: relative;
+    font-size: 16px;
+    padding-left: 15px;
+    line-height: 50px;
+    color: #80b435;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.block-products-seen .block-heading:before{
+    width: 4px;
+    height: 100%;
+    background: #80b435;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+}
+.block-products-seen .block-content{
+    padding: 20px;
+}
+.block-products-seen .block-content .item{
+    border: 1px solid #e5e5e5;
+    padding: 5px;
+}
+.block-products-seen .block-content .item img{
+    width: 100%;
+}
