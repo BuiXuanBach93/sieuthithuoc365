@@ -33,7 +33,7 @@ class SubcribeEmailController extends SiteController
 
         return response([
             'status' => 200,
-            'message' => 'Cảm ơn quý khách đã đăng ký nhận thông tin từ website thuocuytin.com.vn!'
+            'message' => 'Cảm ơn quý khách đã đăng ký nhận thông tin từ website sieuthithuoc365.com!'
         ])->header('Content-Type', 'text/plain');
 
 

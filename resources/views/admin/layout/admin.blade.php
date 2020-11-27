@@ -119,7 +119,7 @@
         <div class="pull-right hidden-xs">
             <b>Version</b> 1.0
         </div>
-        <strong>Copyright &copy; 2020 <a href="https://thuocuytin.com.vn">thuocuytin.com.vn</a>.</strong> 
+        <strong>Copyright &copy; 2020 <a href="https://sieuthithuoc365.com">sieuthithuoc365.com</a>.</strong> 
     </footer>
 </div>    <!--/.main-->
 

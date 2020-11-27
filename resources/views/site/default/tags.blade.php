@@ -6,8 +6,8 @@
 @section('title', 'Tìm kiếm sản phẩm theo Tags')
 @section('meta_description',   'Tìm kiếm sản phẩm tương tự theo gợi ý tìm kiếm tags được gắn trong mỗi sản phẩm')
 @section('keywords', isset($information['meta_keyword']) ? $information['meta_keyword'] : '')
-@section('meta_url', 'https://thuocuytin.com.vn/tags' )
-@section('canonical', 'https://thuocuytin.com.vn/tags' )
+@section('meta_url', 'https://sieuthithuoc365.com/tags' )
+@section('canonical', 'https://sieuthithuoc365.com/tags' )
 @section('content')
     <style type="text/css">
         ul.clearfix

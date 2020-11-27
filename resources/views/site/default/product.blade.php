@@ -22,11 +22,11 @@
           "@graph": [
             {
               "@type": "Organization",
-              "@id": "https://thuocuytin.com.vn/#organization",
+              "@id": "https://sieuthithuoc365.com/#organization",
               "name": "Nhà Thuốc Uy Tín 24h",
-              "url": "https://thuocuytin.com.vn/",
+              "url": "https://sieuthithuoc365.com/",
               "sameAs": [
-                "https://www.facebook.com/thuocuytin.com.vn",
+                "https://www.facebook.com/sieuthithuoc365.com",
                 "https://twitter.com/UyThuoc",
                 "https://www.linkedin.com/company/nhathuocuytin24h",
                 "https://nhathuocuytin24h.business.site",
@@ -36,30 +36,30 @@
               ],
               "logo": {
                 "@type": "ImageObject",
-                "@id": "https://thuocuytin.com.vn/#logo",
+                "@id": "https://sieuthithuoc365.com/#logo",
                 "inLanguage": "vi-VN",
-                "url": "https://thuocuytin.com.vn/public/library/images/nhathuocuytin24h_logo.png",
+                "url": "https://sieuthithuoc365.com/public/library/images/nhathuocuytin24h_logo.png",
                 "width": 280,
                 "height": 63,
                 "caption": "Nhà Thuốc Uy Tín 24h"
               },
               "image": {
-                "@id": "https://thuocuytin.com.vn/#logo"
+                "@id": "https://sieuthithuoc365.com/#logo"
               }
             },
             {
               "@type": "WebSite",
-              "@id": "https://thuocuytin.com.vn/#website",
-              "url": "https://thuocuytin.com.vn/",
+              "@id": "https://sieuthithuoc365.com/#website",
+              "url": "https://sieuthithuoc365.com/",
               "name": "NHÀ THUỐC TRỰC TUYẾN 24H CHÍNH HÃNG UY TÍN CHẤT LƯỢNG",
               "description": "Nhà thuốc phân phối tất cả các loại thuốc, thực phẩm chức năng chính hãng từ nhà sản xuất, cam kết chất lượng - giá tốt - uy tín",
               "publisher": {
-                "@id": "https://thuocuytin.com.vn/#organization"
+                "@id": "https://sieuthithuoc365.com/#organization"
               },
               "potentialAction": [
                 {
                   "@type": "SearchAction",
-                  "target": "https://thuocuytin.com.vn/tim-kiem?word={search_term_string}",
+                  "target": "https://sieuthithuoc365.com/tim-kiem?word={search_term_string}",
                   "query-input": "required name=search_term_string"
                 }
               ],
@@ -67,51 +67,51 @@
             },
             {
               "@type": "ImageObject",
-              "@id": "https://thuocuytin.com.vn/{{$product->slug}}#primaryimage",
+              "@id": "https://sieuthithuoc365.com/{{$product->slug}}#primaryimage",
               "inLanguage": "vi-VN",
-              "url": "https://thuocuytin.com.vn{{$product->image}}",
+              "url": "https://sieuthithuoc365.com{{$product->image}}",
               "width": 300,
               "height": 300,
               "caption": "{{ isset($product['meta_title']) ? $product['meta_title'] : ''}}"
             },
             {
               "@type": "WebPage",
-              "@id": "https://thuocuytin.com.vn/{{$product->slug}}#webpage",
-              "url": "https://thuocuytin.com.vn/{{$product->slug}}",
+              "@id": "https://sieuthithuoc365.com/{{$product->slug}}#webpage",
+              "url": "https://sieuthithuoc365.com/{{$product->slug}}",
               "name": "{{ isset($product['meta_title']) ? $product['meta_title'] : $product['title']}}",
               "isPartOf": {
-                "@id": "https://thuocuytin.com.vn/#website"
+                "@id": "https://sieuthithuoc365.com/#website"
               },
               "primaryImageOfPage": {
-                "@id": "https://thuocuytin.com.vn/{{$product->slug}}#primaryimage"
+                "@id": "https://sieuthithuoc365.com/{{$product->slug}}#primaryimage"
               },
               "datePublished": "{{$product->created_at}}",
               "dateModified": "{{$product->updated_at}}",
               "description": "{{ isset($product['meta_description']) ? $product['meta_description'] : $product['description']}}",
               "breadcrumb": {
-                "@id": "https://thuocuytin.com.vn/{{$product->slug}}#breadcrumb"
+                "@id": "https://sieuthithuoc365.com/{{$product->slug}}#breadcrumb"
               },
               "inLanguage": "vi-VN",
               "potentialAction": [
                 {
                   "@type": "ReadAction",
                   "target": [
-                    "https://thuocuytin.com.vn/{{$product->slug}}"
+                    "https://sieuthithuoc365.com/{{$product->slug}}"
                   ]
                 }
               ]
             },
             {
               "@type": "BreadcrumbList",
-              "@id": "https://thuocuytin.com.vn/{{$product->slug}}#breadcrumb",
+              "@id": "https://sieuthithuoc365.com/{{$product->slug}}#breadcrumb",
               "itemListElement": [
                 {
                   "@type": "ListItem",
                   "position": 1,
                   "item": {
                     "@type": "WebPage",
-                    "@id": "https://thuocuytin.com.vn/",
-                    "url": "https://thuocuytin.com.vn/",
+                    "@id": "https://sieuthithuoc365.com/",
+                    "url": "https://sieuthithuoc365.com/",
                     "name": "Home"
                   }
                 },
@@ -120,8 +120,8 @@
                   "position": 2,
                   "item": {
                     "@type": "WebPage",
-                    "@id": "https://thuocuytin.com.vn/cua-hang/{{$category->slug}}",
-                    "url": "https://thuocuytin.com.vn/cua-hang/{{$category->slug}}",
+                    "@id": "https://sieuthithuoc365.com/cua-hang/{{$category->slug}}",
+                    "url": "https://sieuthithuoc365.com/cua-hang/{{$category->slug}}",
                     "name": "{{$category->title}}"
                   }
                 },
@@ -130,8 +130,8 @@
                   "position": 3,
                   "item": {
                     "@type": "WebPage",
-                    "@id": "https://thuocuytin.com.vn/{{$product->slug}}",
-                    "url": "https://thuocuytin.com.vn/{{$product->slug}}",
+                    "@id": "https://sieuthithuoc365.com/{{$product->slug}}",
+                    "url": "https://sieuthithuoc365.com/{{$product->slug}}",
                     "name": "{{$product->meta_title}}"
                   }
                 }
@@ -139,24 +139,24 @@
             },
             {
               "@type": "Article",
-              "@id": "https://thuocuytin.com.vn/{{$product->slug}}#article",
+              "@id": "https://sieuthithuoc365.com/{{$product->slug}}#article",
               "isPartOf": {
-                "@id": "https://thuocuytin.com.vn/{{$product->slug}}#webpage"
+                "@id": "https://sieuthithuoc365.com/{{$product->slug}}#webpage"
               },
               "author": {
-                "@id": "https://thuocuytin.com.vn/author/duocsilekimoanh#person"
+                "@id": "https://sieuthithuoc365.com/author/duocsilekimoanh#person"
               },
               "headline": "{{ isset($product['meta_title']) ? $product['meta_title'] : ''}}",
               "datePublished": "{{$product->created_at}}",
               "dateModified": "{{$product->updated_at}}",
               "mainEntityOfPage": {
-                "@id": "https://thuocuytin.com.vn/{{$product->slug}}#webpage"
+                "@id": "https://sieuthithuoc365.com/{{$product->slug}}#webpage"
               },
               "publisher": {
-                "@id": "https://thuocuytin.com.vn/#organization"
+                "@id": "https://sieuthithuoc365.com/#organization"
               },
               "image": {
-                "@id": "https://thuocuytin.com.vn/{{$product->slug}}#primaryimage"
+                "@id": "https://sieuthithuoc365.com/{{$product->slug}}#primaryimage"
               },
               "articleSection": "",
               "inLanguage": "vi-VN",
@@ -164,7 +164,7 @@
                 {
                   "@type": "ReadAction",
                   "target": [
-                    "https://thuocuytin.com.vn/{{$product->slug}}"
+                    "https://sieuthithuoc365.com/{{$product->slug}}"
                   ]
                 }
               ]
@@ -173,11 +173,11 @@
               "@type": [
                 "Person"
               ],
-              "@id": "https://thuocuytin.com.vn/author/duocsilekimoanh#person",
+              "@id": "https://sieuthithuoc365.com/author/duocsilekimoanh#person",
               "name": "Dược Sĩ Lê Kim Oanh",
               "image": {
                 "@type": "ImageObject",
-                "@id": "https://thuocuytin.com.vn/#authorlogo",
+                "@id": "https://sieuthithuoc365.com/#authorlogo",
                 "inLanguage": "vi-VN",
                 "url": "https://s.gravatar.com/avatar/33401070ddcbb63fcce2edfd59e3ccdf",
                 "caption": "Dược Sĩ Lê Kim Oanh"
@@ -329,7 +329,7 @@
                             <div id="customer-count-desktop" class="ins-preview-wrapper">
                                 
                                 <div id="image-1478094039604" class="ins-element-content change-image" style="width: 30px;height: 20px;">
-                                    <img alt="icon viewer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY/j//z8ABf4C/qc1gYQAAAAASUVORK5CYII=" class="lazyload" data-src="https://thuocuytin.com.vn/public/library/images/icons/icon_cus_view.png" class="ins-element-image ins-image">
+                                    <img alt="icon viewer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY/j//z8ABf4C/qc1gYQAAAAASUVORK5CYII=" class="lazyload" data-src="https://sieuthithuoc365.com/public/library/images/icons/icon_cus_view.png" class="ins-element-image ins-image">
                                 </div>
                                 <div style="padding-top: 12px;
     margin-left: 5px;" class="ins-adaptive-description ins-selectable-element ins-element-wrap ins-element-text">
@@ -522,7 +522,7 @@
                                         </div>
                                         @if ($showShip == 1)
                                         <div style="display: flex;width: 200px;padding-left: 10px; padding-top: 10px;">
-                                            <img alt="free ship icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY/j//z8ABf4C/qc1gYQAAAAASUVORK5CYII=" class="lazyload" style="width:40px;height: 20px; margin-right: 5px" data-src="https://thuocuytin.com.vn/public/library/images/icons/free-ship.png">
+                                            <img alt="free ship icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY/j//z8ABf4C/qc1gYQAAAAASUVORK5CYII=" class="lazyload" style="width:40px;height: 20px; margin-right: 5px" data-src="https://sieuthithuoc365.com/public/library/images/icons/free-ship.png">
                                         <span style="color: #0073ad; font-weight: normal; font-size: 12px">{{$shipText}}</span>
                                     </div>
                                     @endIf
@@ -560,15 +560,15 @@
                                 padding: 10px;
                                 border-radius: 5px;">
                             <p>
-                                <img alt="icon accept" src="https://thuocuytin.com.vn/public/library/images/danhmucsp/icon/icon-accept-16.png"><span style="font-size: 14px;
+                                <img alt="icon accept" src="https://sieuthithuoc365.com/public/library/images/danhmucsp/icon/icon-accept-16.png"><span style="font-size: 14px;
                                 font-weight: bold;"> Tư vấn 1 - 1 cùng dược sỹ 24/7</span><br>
-                                <img alt="icon accept" src="https://thuocuytin.com.vn/public/library/images/danhmucsp/icon/icon-accept-16.png"><span style="
+                                <img alt="icon accept" src="https://sieuthithuoc365.com/public/library/images/danhmucsp/icon/icon-accept-16.png"><span style="
                                 font-size: 14px;
                                 font-weight: bold;"> Đổi trả trong vòng 7 ngày</span><br>
-                                <img alt="icon accept" src="https://thuocuytin.com.vn/public/library/images/danhmucsp/icon/icon-accept-16.png"><span style="
+                                <img alt="icon accept" src="https://sieuthithuoc365.com/public/library/images/danhmucsp/icon/icon-accept-16.png"><span style="
                                 font-size: 14px;
                                 font-weight: bold;"> Miễn phí vận chuyển với đơn hàng 500K</span><br>
-                                <img alt="icon accept" src="https://thuocuytin.com.vn/public/library/images/danhmucsp/icon/icon-accept-16.png"><span style="
+                                <img alt="icon accept" src="https://sieuthithuoc365.com/public/library/images/danhmucsp/icon/icon-accept-16.png"><span style="
                                 font-size: 14px;
                                 font-weight: bold;"> Kiểm tra hàng trước khi thanh toán</span><br>
                             </p>
@@ -653,7 +653,7 @@
                     <div class="single-post-meta row align-items-center">
                   <div class="col-md-6 mr-auto align-items-center">
                       <div class="avartar">
-                      <img alt="duoc sy kim oanh" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY/j//z8ABf4C/qc1gYQAAAAASUVORK5CYII=" class="lazyload" data-src="https://thuocuytin.com.vn/public/library/images/baiviet/duocsy/duoc-si-kim-oanh.jpg" height="35" width="35">
+                      <img alt="duoc sy kim oanh" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY/j//z8ABf4C/qc1gYQAAAAASUVORK5CYII=" class="lazyload" data-src="https://sieuthithuoc365.com/public/library/images/baiviet/duocsy/duoc-si-kim-oanh.jpg" height="35" width="35">
                       </div>
                       <div>
                         <span class="author">Tác giả</span>
@@ -827,7 +827,7 @@
                 <div id="wrap-image-1478094039604" class="ins-selectable-element ins-element-wrap ins-element-image ins-image-wrap">
                     <div id="image-1478094039604" class="ins-element-content change-image">
                         <a>
-                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY/j//z8ABf4C/qc1gYQAAAAASUVORK5CYII=" class="lazyload" alt="icon viewer" data-src="https://thuocuytin.com.vn/public/library/images/icons/icon_cus_view.png" class="ins-element-image ins-image">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY/j//z8ABf4C/qc1gYQAAAAASUVORK5CYII=" class="lazyload" alt="icon viewer" data-src="https://sieuthithuoc365.com/public/library/images/icons/icon_cus_view.png" class="ins-element-image ins-image">
                         </a>
                     </div>
                 </div>

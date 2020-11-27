@@ -120,7 +120,7 @@
 
             <div class="row position-relative mgtop20 bgwhite">
                 <div class="icon-pay-success">
-                    <img style="width: 50%" src="https://thuocuytin.com.vn/public/library/images/success-icon.png" alt="icon">
+                    <img style="width: 50%" src="https://sieuthithuoc365.com/public/library/images/success-icon.png" alt="icon">
                 </div>
                 <div class="order-success text-center font-weight-bold text-uppercase mgtop40">MUA HÀNG THÀNH CÔNG</div>
                     <div class="pay">
@@ -331,7 +331,7 @@
                             </table>
                         </div>
                         <div class="col-12 col-md-12">
-                            <p class="lastText">Quý khách vui lòng điền mã nội dung sau: <span class="red">#{{ $orderId }} - thuocuytin.com.vn</span> trong
+                            <p class="lastText">Quý khách vui lòng điền mã nội dung sau: <span class="red">#{{ $orderId }} - sieuthithuoc365.com</span> trong
                                 phần nội dung chuyển khoản để chúng tôi xác nhận đơn hàng.</p>
                         </div>
                     </div>

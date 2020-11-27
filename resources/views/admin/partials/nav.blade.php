@@ -40,7 +40,7 @@
                     @if (!empty($countRp))
                     <span id="ajax_countRp" class="badge"> {!! $countRp !!} </span>
 					<audio controls autoplay hidden loop>
-						<source src="https://thuocuytin.com.vn/public/library/images/notify_babyshark.mp3" type="audio/mpeg">
+						<source src="https://sieuthithuoc365.com/public/library/images/notify_babyshark.mp3" type="audio/mpeg">
 					</audio>
                     @endif
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">

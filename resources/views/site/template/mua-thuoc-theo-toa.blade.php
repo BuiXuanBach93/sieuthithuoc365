@@ -5,8 +5,8 @@
 @section('view_port', 'width=device-width, initial-scale=1')
 @section('title', 'Mua thuốc theo toa (đơn)')
 @section('meta_description', 'Mua thuốc theo đơn, nhà thuốc hỗ trợ bán thuốc theo đơn bác sỹ kê cho bệnh nhân')
-@section('meta_url', 'https://thuocuytin.com.vn/trang/mua-thuoc-theo-toa' )
-@section('canonical', 'https://thuocuytin.com.vn/trang/mua-thuoc-theo-toa' )
+@section('meta_url', 'https://sieuthithuoc365.com/trang/mua-thuoc-theo-toa' )
+@section('canonical', 'https://sieuthithuoc365.com/trang/mua-thuoc-theo-toa' )
 @section('content')
 
     <section class="main-ctn">

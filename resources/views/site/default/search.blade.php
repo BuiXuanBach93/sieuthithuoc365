@@ -5,8 +5,8 @@
 @section('view_port', 'width=device-width, initial-scale=1')
 @section('title', 'Tìm kiếm sản phẩm tên')
 @section('meta_description',  'Hãy tìm kiếm sản phẩm trên website theo tên bạn cần tìm, chú ý nên tìm theo tên thuốc, thực phẩm chức năng' )
-@section('meta_url', 'https://thuocuytin.com.vn/tim-kiem' )
-@section('canonical', 'https://thuocuytin.com.vn/tim-kiem' )
+@section('meta_url', 'https://sieuthithuoc365.com/tim-kiem' )
+@section('canonical', 'https://sieuthithuoc365.com/tim-kiem' )
 @section('content')
 <section class="main-ctn">
 	<div class="container">

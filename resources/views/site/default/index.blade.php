@@ -6,21 +6,21 @@
 @section('title', isset($information['meta_title']) ? $information['meta_title'] : '')
 @section('meta_description', isset($information['meta_description']) ? $information['meta_description'] : '')
 @section('keywords', isset($information['meta_keyword']) ? $information['meta_keyword'] : '')
-@section('meta_image', 'https://thuocuytin.com.vn/public/library/images/danhmucsp/category_logo/cate_sanpham.jpg' )
-@section('meta_url', 'https://thuocuytin.com.vn/' )
-@section('canonical', 'https://thuocuytin.com.vn/' )
+@section('meta_image', 'https://sieuthithuoc365.com/public/library/images/danhmucsp/category_logo/cate_sanpham.jpg' )
+@section('meta_url', 'https://sieuthithuoc365.com/' )
+@section('canonical', 'https://sieuthithuoc365.com/' )
 @section('category_name', 'NHÀ THUỐC UY TÍN 24H' )
-@section('fb_publisher', 'https://www.facebook.com/thuocuytin.com.vn/' )
-@section('fb_author', 'https://www.facebook.com/thuocuytin.com.vn/' )
+@section('fb_publisher', 'https://www.facebook.com/sieuthithuoc365.com/' )
+@section('fb_author', 'https://www.facebook.com/sieuthithuoc365.com/' )
 @section('tw_author', '@UyThuoc' )
 @section('content')
 <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     "name": "Nhà Thuốc Uy Tín 24h",
-    "image": "https://thuocuytin.com.vn/public/library/images/nhathuocuytin24h_logo.png",
-    "@id": "https://thuocuytin.com.vn/#nhathuocuytin24h",
-    "url": "https://thuocuytin.com.vn",
+    "image": "https://sieuthithuoc365.com/public/library/images/nhathuocuytin24h_logo.png",
+    "@id": "https://sieuthithuoc365.com/#nhathuocuytin24h",
+    "url": "https://sieuthithuoc365.com",
     "telephone": "+84338814456",
     "priceRange": "500",
     "address": {
@@ -50,7 +50,7 @@
       "closes": "22:00"
     },
     "sameAs": [
-                "https://www.facebook.com/thuocuytin.com.vn",
+                "https://www.facebook.com/sieuthithuoc365.com",
                 "https://twitter.com/UyThuoc",
                 "https://www.linkedin.com/company/nhathuocuytin24h",
                 "https://nhathuocuytin24h.business.site",
@@ -73,9 +73,9 @@
       "https://twitter.com/duocsilekimoanh",
       "https://www.flickr.com/people/duocsilekimoanh/"
     ],
-    "url": "https://thuocuytin.com.vn/author/duocsilekimoanh",
-    "mainEntityOfPage": "https://thuocuytin.com.vn/author/duocsilekimoanh",
-    "@id": "https://thuocuytin.com.vn/author/duocsilekimoanh#person",
+    "url": "https://sieuthithuoc365.com/author/duocsilekimoanh",
+    "mainEntityOfPage": "https://sieuthithuoc365.com/author/duocsilekimoanh",
+    "@id": "https://sieuthithuoc365.com/author/duocsilekimoanh#person",
     "familyName": "Lê",
     "additionalName": "Kim",
     "givenName": "Oanh",
@@ -88,7 +88,7 @@
     },
     "gender": "https://schema.org/Female",
     "email": "duocsikimoanh2020@gmail.com",
-    "image": "https://thuocuytin.com.vn/public/library/images/baiviet/duocsy/duocsy_lekimoanh_thumb.jpg"
+    "image": "https://sieuthithuoc365.com/public/library/images/baiviet/duocsy/duocsy_lekimoanh_thumb.jpg"
   }          
   }</script>
    @include('site.partials.slider')

@@ -19,7 +19,7 @@ Deny from 111.126.50.138
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^103\.101\.162\.171
-RewriteRule ^(.*)$ https://thuocuytin.com.vn/$1 [R=301,L]
+RewriteRule ^(.*)$ https://sieuthithuoc365.com/$1 [R=301,L]
 </IfModule>
 
 <IfModule mod_rewrite.c>
@@ -31,7 +31,7 @@ RewriteRule    ^$ public/    [L]
 RewriteRule    (.*) public/$1 [L]
 </IfModule>
 
-Redirect 301 /thuocuytin.com.vn/cua-hang/cham-soc-suc-khoe /cua-hang/san-pham
+Redirect 301 /sieuthithuoc365.com/cua-hang/cham-soc-suc-khoe /cua-hang/san-pham
 
 
 <IfModule mod_expires.c>

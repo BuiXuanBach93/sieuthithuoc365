@@ -8,8 +8,8 @@
 @section('meta_description',  isset($category['meta_description']) && !empty($category['meta_description']) ? $category['meta_description'] : $category->description)
 @section('keywords', isset($category['meta_keyword']) && !empty($category['meta_keyword']) ? $category['meta_keyword'] : '')
 @section('meta_image', !empty($category->image) ?  asset($category->image) : $information['logo'] )
-@section('meta_url', 'https://thuocuytin.com.vn/danh-muc/'.$category->slug)
-@section('canonical', 'https://thuocuytin.com.vn/danh-muc/'.$category->slug)
+@section('meta_url', 'https://sieuthithuoc365.com/danh-muc/'.$category->slug)
+@section('canonical', 'https://sieuthithuoc365.com/danh-muc/'.$category->slug)
 @section('content')
 
         <section class="main-ctn">

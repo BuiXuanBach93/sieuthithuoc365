@@ -5,8 +5,8 @@
 @section('view_port', 'width=device-width, initial-scale=1')
 @section('title', 'Tìm kiếm sản phẩm theo thương hiệu')
 @section('meta_description',  'Tìm kiếm tất cả những sản phẩm đến từ cùng một thương hiệu trên hệ thống website của chúng tôi' )
-@section('meta_url', 'https://thuocuytin.com.vn/tim-kiem-thuong-hieu' )
-@section('canonical', 'https://thuocuytin.com.vn/tim-kiem-thuong-hieu' )
+@section('meta_url', 'https://sieuthithuoc365.com/tim-kiem-thuong-hieu' )
+@section('canonical', 'https://sieuthithuoc365.com/tim-kiem-thuong-hieu' )
 @section('content')
 <section class="main-ctn">
   <div class="container">

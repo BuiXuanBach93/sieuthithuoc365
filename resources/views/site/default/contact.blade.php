@@ -4,8 +4,8 @@
 @section('bingbot', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1')
 @section('view_port', 'width=device-width, initial-scale=1')
 @section('title','Liên hệ')
-@section('meta_url', 'https://thuocuytin.com.vn/lien-he')
-@section('canonical', 'https://thuocuytin.com.vn/lien-he')
+@section('meta_url', 'https://sieuthithuoc365.com/lien-he')
+@section('canonical', 'https://sieuthithuoc365.com/lien-he')
 @section('meta_description', 'Liên hệ với nhà thuốc để được hỗ trợ')
 
 @section('content')

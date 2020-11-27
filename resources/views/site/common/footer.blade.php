@@ -45,7 +45,7 @@
                   <div class="block-fanpage ">
                      <ul class="social-connect">
                         <li>
-                           <a href="https://www.facebook.com/thuocuytin.com.vn" rel="nofollow" target="_blank">
+                           <a href="https://www.facebook.com/sieuthithuoc365.com" rel="nofollow" target="_blank">
                               <i class="fa fa-facebook" aria-hidden="true"></i>
                            </a>
                         </li>

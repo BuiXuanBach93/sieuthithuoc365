@@ -5,8 +5,8 @@
 @section('view_port', 'width=device-width, initial-scale=1')
 @section('title', 'Đăng ký')
 @section('meta_description', 'Đăng ký tài khoản')
-@section('meta_url', 'https://thuocuytin.com.vn/trang/dang-ky' )
-@section('canonical', 'https://thuocuytin.com.vn/trang/dang-ky' )
+@section('meta_url', 'https://sieuthithuoc365.com/trang/dang-ky' )
+@section('canonical', 'https://sieuthithuoc365.com/trang/dang-ky' )
 @section('content')
 
     <section class="main-ctn">

@@ -21,41 +21,41 @@
           "@graph": [
             {
               "@type": "Organization",
-              "@id": "https://thuocuytin.com.vn/#organization",
+              "@id": "https://sieuthithuoc365.com/#organization",
               "name": "Nhà thuốc uy tín 24h",
-              "url": "https://thuocuytin.com.vn/",
+              "url": "https://sieuthithuoc365.com/",
               "sameAs": [
-                "https://www.facebook.com/thuocuytin.com.vn",
+                "https://www.facebook.com/sieuthithuoc365.com",
                 "https://twitter.com/UyThuoc",
-                "https://www.linkedin.com/in/thuocuytin.com.vn",
+                "https://www.linkedin.com/in/sieuthithuoc365.com",
                 "https://nhathuocuytin24h.tumblr.com"
               ],
               "logo": {
                 "@type": "ImageObject",
-                "@id": "https://thuocuytin.com.vn/#logo",
+                "@id": "https://sieuthithuoc365.com/#logo",
                 "inLanguage": "vi-VN",
-                "url": "https://thuocuytin.com.vn/public/library/images/nhathuocuytin24h_logo.png",
+                "url": "https://sieuthithuoc365.com/public/library/images/nhathuocuytin24h_logo.png",
                 "width": 280,
                 "height": 63,
                 "caption": "Nhà thuốc uy tín 24h"
               },
               "image": {
-                "@id": "https://thuocuytin.com.vn/#logo"
+                "@id": "https://sieuthithuoc365.com/#logo"
               }
             },
             {
               "@type": "WebSite",
-              "@id": "https://thuocuytin.com.vn/#website",
-              "url": "https://thuocuytin.com.vn/",
+              "@id": "https://sieuthithuoc365.com/#website",
+              "url": "https://sieuthithuoc365.com/",
               "name": "NHÀ THUỐC TRỰC TUYẾN 24H CHÍNH HÃNG UY TÍN CHẤT LƯỢNG",
               "description": "Nhà thuốc phân phối tất cả các loại thuốc, thực phẩm chức năng chính hãng từ nhà sản xuất, cam kết chất lượng - giá tốt - uy tín",
               "publisher": {
-                "@id": "https://thuocuytin.com.vn/#organization"
+                "@id": "https://sieuthithuoc365.com/#organization"
               },
               "potentialAction": [
                 {
                   "@type": "SearchAction",
-                  "target": "https://thuocuytin.com.vn/tim-kiem?word={search_term_string}",
+                  "target": "https://sieuthithuoc365.com/tim-kiem?word={search_term_string}",
                   "query-input": "required name=search_term_string"
                 }
               ],
@@ -63,51 +63,51 @@
             },
             {
               "@type": "ImageObject",
-              "@id": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}#primaryimage",
+              "@id": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}#primaryimage",
               "inLanguage": "vi-VN",
-              "url": "https://thuocuytin.com.vn{{$post->image}}",
+              "url": "https://sieuthithuoc365.com{{$post->image}}",
               "width": 300,
               "height": 300,
               "caption": "{{ isset($post['title']) ? $post['title'] : ''}}"
             },
             {
               "@type": "WebPage",
-              "@id": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}#webpage",
-              "url": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}",
+              "@id": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}#webpage",
+              "url": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}",
               "name": "{{ isset($post['title']) ? $post['title'] : ''}}",
               "isPartOf": {
-                "@id": "https://thuocuytin.com.vn/#website"
+                "@id": "https://sieuthithuoc365.com/#website"
               },
               "primaryImageOfPage": {
-                "@id": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}#primaryimage"
+                "@id": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}#primaryimage"
               },
               "datePublished": "{{$post->created_at}}",
               "dateModified": "{{$post->updated_at}}",
               "description": "{{$post->meta_description}}",
               "breadcrumb": {
-                "@id": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}#breadcrumb"
+                "@id": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}#breadcrumb"
               },
               "inLanguage": "vi-VN",
               "potentialAction": [
                 {
                   "@type": "ReadAction",
                   "target": [
-                    "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}"
+                    "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}"
                   ]
                 }
               ]
             },
             {
               "@type": "BreadcrumbList",
-              "@id": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}#breadcrumb",
+              "@id": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}#breadcrumb",
               "itemListElement": [
                 {
                   "@type": "ListItem",
                   "position": 1,
                   "item": {
                     "@type": "WebPage",
-                    "@id": "https://thuocuytin.com.vn/",
-                    "url": "https://thuocuytin.com.vn/",
+                    "@id": "https://sieuthithuoc365.com/",
+                    "url": "https://sieuthithuoc365.com/",
                     "name": "Home"
                   }
                 },
@@ -116,8 +116,8 @@
                   "position": 2,
                   "item": {
                     "@type": "WebPage",
-                    "@id": "https://thuocuytin.com.vn/{{$category->slug}}",
-                    "url": "https://thuocuytin.com.vn/{{$category->slug}}",
+                    "@id": "https://sieuthithuoc365.com/{{$category->slug}}",
+                    "url": "https://sieuthithuoc365.com/{{$category->slug}}",
                     "name": "{{$category->title}}"
                   }
                 },
@@ -126,8 +126,8 @@
                   "position": 3,
                   "item": {
                     "@type": "WebPage",
-                    "@id": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}",
-                    "url": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}",
+                    "@id": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}",
+                    "url": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}",
                     "name": "{{$post->title}}"
                   }
                 }
@@ -135,25 +135,25 @@
             },
             {
               "@type": "Article",
-              "@id": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}#article",
+              "@id": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}#article",
               "isPartOf": {
-                "@id": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}#webpage"
+                "@id": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}#webpage"
               },
               "author": {
-                "@id": "https://thuocuytin.com.vn/author/duocsilekimoanh"
+                "@id": "https://sieuthithuoc365.com/author/duocsilekimoanh"
               },
               "headline": "{{$post->title}}",
               "datePublished": "{{$post->created_at}}",
               "dateModified": "{{$post->updated_at}}",
               "commentCount": 0,
               "mainEntityOfPage": {
-                "@id": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}#webpage"
+                "@id": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}#webpage"
               },
               "publisher": {
-                "@id": "https://thuocuytin.com.vn/#organization"
+                "@id": "https://sieuthithuoc365.com/#organization"
               },
               "image": {
-                "@id": "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}#primaryimage"
+                "@id": "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}#primaryimage"
               },
               "articleSection": "",
               "inLanguage": "vi-VN",
@@ -162,7 +162,7 @@
                   "@type": "CommentAction",
                   "name": "Comment",
                   "target": [
-                    "https://thuocuytin.com.vn/{{$category->slug}}/{{$post->slug}}#respond"
+                    "https://sieuthithuoc365.com/{{$category->slug}}/{{$post->slug}}#respond"
                   ]
                 }
               ]
@@ -171,11 +171,11 @@
               "@type": [
                 "Person"
               ],
-              "@id": "https://thuocuytin.com.vn/author/duocsilekimoanh",
+              "@id": "https://sieuthithuoc365.com/author/duocsilekimoanh",
               "name": "Dược Sĩ Lê Kim Oanh",
               "image": {
                 "@type": "ImageObject",
-                "@id": "https://thuocuytin.com.vn/#authorlogo",
+                "@id": "https://sieuthithuoc365.com/#authorlogo",
                 "inLanguage": "vi-VN",
                 "url": "https://s.gravatar.com/avatar/33401070ddcbb63fcce2edfd59e3ccdf",
                 "caption": "Dược Sĩ Lê Kim Oanh"

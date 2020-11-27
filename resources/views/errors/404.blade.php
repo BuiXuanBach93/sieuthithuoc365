@@ -20,7 +20,7 @@
 
 .four_zero_four_bg{
  
- background-image: url(https://thuocuytin.com.vn/public/library/images/404.gif);
+ background-image: url(https://sieuthithuoc365.com/public/library/images/404.gif);
     height: 400px;
     background-position: center;
  }
@@ -61,7 +61,7 @@
         
         <p>the page you are looking for not avaible!</p>
         
-        <a href="https://thuocuytin.com.vn" class="link_404">Go to Home</a>
+        <a href="https://sieuthithuoc365.com" class="link_404">Go to Home</a>
     </div>
         </div>
         </div>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /admin/*
 
-Sitemap: https://thuocuytin.com.vn/sitemap.xml
+Sitemap: https://sieuthithuoc365.com/sitemap.xml
