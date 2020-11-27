@@ -18,7 +18,7 @@ Deny from 111.126.50.138
 
 <IfModule mod_rewrite.c>
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^103\.101\.162\.171
+RewriteCond %{HTTP_HOST} ^103\.101\.163\.141
 RewriteRule ^(.*)$ https://sieuthithuoc365.com/$1 [R=301,L]
 </IfModule>
 
