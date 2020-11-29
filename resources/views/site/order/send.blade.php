@@ -126,7 +126,7 @@
                     <div class="pay">
                         <div class="row pdright20 pdleft20 content-success">
                             <div class="col-12 message-thanks pdright10">
-                                <p class="lastText">Cảm ơn quý khách đã cho Nhà Thuốc Uy Tín 24h cơ hội được phục vụ. Trong vòng 5 phút, nhân viên Nhà Thuốc sẽ gọi điện xác nhận đơn hàng của quý khách.</p>
+                                <p class="lastText">Cảm ơn quý khách đã cho Siêu Thị Thuốc 365 cơ hội được phục vụ. Trong vòng 5 phút, nhân viên Nhà Thuốc sẽ gọi điện xác nhận đơn hàng của quý khách.</p>
                             </div>
                             <h3 class="titleV titleP bgorange">
                                 THÔNG TIN NHẬN HÀNG

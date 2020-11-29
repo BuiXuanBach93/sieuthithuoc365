@@ -22,22 +22,22 @@
             {
               "@type": "Organization",
               "@id": "https://sieuthithuoc365.com/#organization",
-              "name": "Nhà thuốc uy tín 24h",
+              "name": "Siêu Thị Thuốc 365",
               "url": "https://sieuthithuoc365.com/",
               "sameAs": [
-                "https://www.facebook.com/sieuthithuoc365.com",
-                "https://twitter.com/UyThuoc",
-                "https://www.linkedin.com/in/sieuthithuoc365.com",
-                "https://nhathuocuytin24h.tumblr.com"
+                "https://www.facebook.com/sieuthithuoc365",
+                "https://twitter.com/sieuthithuoc365",
+                "https://www.linkedin.com/in/sieuthithuoc365",
+                "https://sieuthithuoc365.tumblr.com"
               ],
               "logo": {
                 "@type": "ImageObject",
                 "@id": "https://sieuthithuoc365.com/#logo",
                 "inLanguage": "vi-VN",
-                "url": "https://sieuthithuoc365.com/public/library/images/nhathuocuytin24h_logo.png",
+                "url": "https://sieuthithuoc365.com/public/library/images/sieuthithuoc365-logo.png",
                 "width": 280,
                 "height": 63,
-                "caption": "Nhà thuốc uy tín 24h"
+                "caption": "Siêu Thị Thuốc 365"
               },
               "image": {
                 "@id": "https://sieuthithuoc365.com/#logo"
@@ -47,8 +47,8 @@
               "@type": "WebSite",
               "@id": "https://sieuthithuoc365.com/#website",
               "url": "https://sieuthithuoc365.com/",
-              "name": "NHÀ THUỐC TRỰC TUYẾN 24H CHÍNH HÃNG UY TÍN CHẤT LƯỢNG",
-              "description": "Nhà thuốc phân phối tất cả các loại thuốc, thực phẩm chức năng chính hãng từ nhà sản xuất, cam kết chất lượng - giá tốt - uy tín",
+              "name": "SIÊU THỊ THUỐC 365 - AN TÂM MUA THUỐC CHÍNH HÃNG",
+              "description": "Mua thuốc, thực phẩm chức năng online chính hãng, giá ưu đãi, giao hàng toàn quốc nhanh chóng, tiện lợi.",
               "publisher": {
                 "@id": "https://sieuthithuoc365.com/#organization"
               },

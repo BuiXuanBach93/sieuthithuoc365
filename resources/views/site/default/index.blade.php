@@ -9,7 +9,7 @@
 @section('meta_image', 'https://sieuthithuoc365.com/public/library/images/danhmucsp/category_logo/cate_sanpham.jpg' )
 @section('meta_url', 'https://sieuthithuoc365.com/' )
 @section('canonical', 'https://sieuthithuoc365.com/' )
-@section('category_name', 'NHÀ THUỐC UY TÍN 24H' )
+@section('category_name', 'SIÊU THỊ THUỐC 365' )
 @section('fb_publisher', 'https://www.facebook.com/sieuthithuoc365.com/' )
 @section('fb_author', 'https://www.facebook.com/sieuthithuoc365.com/' )
 @section('tw_author', '@UyThuoc' )
@@ -17,23 +17,23 @@
 <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    "name": "Nhà Thuốc Uy Tín 24h",
-    "image": "https://sieuthithuoc365.com/public/library/images/nhathuocuytin24h_logo.png",
-    "@id": "https://sieuthithuoc365.com/#nhathuocuytin24h",
+    "name": "Siêu Thị Thuốc 365",
+    "image": "https://sieuthithuoc365.com/public/library/images/sieuthithuoc365-logo.png",
+    "@id": "https://sieuthithuoc365.com/#sieuthithuoc365",
     "url": "https://sieuthithuoc365.com",
     "telephone": "+84338814456",
     "priceRange": "500",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Tòa V8 The Vesta, Phú Lãm, Hà Đông, Hà Nội",
+      "streetAddress": "Tòa V6 The Vesta, Phú Lãm, Hà Đông, Hà Nội",
       "addressLocality": "TP. Hà Nội",
       "postalCode": "100000",
       "addressCountry": "VN"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 20.945393,
-      "longitude": 105.755947
+      "latitude": 20.9616647,
+      "longitude": 105.795733
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -50,13 +50,13 @@
       "closes": "22:00"
     },
     "sameAs": [
-                "https://www.facebook.com/sieuthithuoc365.com",
-                "https://twitter.com/UyThuoc",
-                "https://www.linkedin.com/company/nhathuocuytin24h",
-                "https://nhathuocuytin24h.business.site",
-                "https://www.pinterest.com/nhathuocuytin",
-                "https://www.instagram.com/thuocuytin24h",
-                "https://nhathuocuytin24h.tumblr.com"
+                "https://www.facebook.com/sieuthithuoc365",
+                "https://twitter.com/sieuthithuoc365",
+                "https://www.linkedin.com/company/sieuthithuoc365",
+                "https://sieuthithuoc365.business.site",
+                "https://www.pinterest.com/sieuthithuoc365",
+                "https://www.instagram.com/sieuthithuoc365",
+                "https://sieuthithuoc365.tumblr.com"
               ],
     "founder": {
     "@type": "Person",
@@ -80,7 +80,7 @@
     "additionalName": "Kim",
     "givenName": "Oanh",
     "name": "Lê Kim Oanh",
-    "description": "Tôi là Lê Kim Oanh, hiện đang là CEO của Nhà Thuốc Uy Tín 24h, tôi luôn nỗ lực cống hiến hết mình để góp phần đẩy lùi bệnh tật mang đến cuộc sống khỏe đẹp cho những người xung quanh, cống hiến cho nền Y Dược nước nhà.",
+    "description": "Tôi là Lê Kim Oanh, hiện đang là CEO của Siêu Thị Thuốc 365, tôi luôn nỗ lực cống hiến hết mình để góp phần đẩy lùi bệnh tật mang đến cuộc sống khỏe đẹp cho những người xung quanh, cống hiến cho nền Y Dược nước nhà.",
     "jobTitle": {
       "@type": "DefinedTerm",
       "name": "CEO",

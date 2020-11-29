@@ -23,25 +23,25 @@
             {
               "@type": "Organization",
               "@id": "https://sieuthithuoc365.com/#organization",
-              "name": "Nhà Thuốc Uy Tín 24h",
+              "name": "Siêu Thị Thuốc 365",
               "url": "https://sieuthithuoc365.com/",
               "sameAs": [
-                "https://www.facebook.com/sieuthithuoc365.com",
+                "https://www.facebook.com/sieuthithuoc365",
                 "https://twitter.com/UyThuoc",
-                "https://www.linkedin.com/company/nhathuocuytin24h",
-                "https://nhathuocuytin24h.business.site",
-                "https://www.pinterest.com/nhathuocuytin",
-                "https://www.instagram.com/thuocuytin24h",
-                "https://nhathuocuytin24h.tumblr.com"
+                "https://www.linkedin.com/company/sieuthithuoc365",
+                "https://sieuthithuoc365.business.site",
+                "https://www.pinterest.com/sieuthithuoc365",
+                "https://www.instagram.com/sieuthithuoc365",
+                "https://sieuthithuoc365.tumblr.com"
               ],
               "logo": {
                 "@type": "ImageObject",
                 "@id": "https://sieuthithuoc365.com/#logo",
                 "inLanguage": "vi-VN",
-                "url": "https://sieuthithuoc365.com/public/library/images/nhathuocuytin24h_logo.png",
+                "url": "https://sieuthithuoc365.com/public/library/images/sieuthithuoc365-logo.png",
                 "width": 280,
-                "height": 63,
-                "caption": "Nhà Thuốc Uy Tín 24h"
+                "height": 70,
+                "caption": "Siêu Thị Thuốc 365"
               },
               "image": {
                 "@id": "https://sieuthithuoc365.com/#logo"
@@ -51,8 +51,8 @@
               "@type": "WebSite",
               "@id": "https://sieuthithuoc365.com/#website",
               "url": "https://sieuthithuoc365.com/",
-              "name": "NHÀ THUỐC TRỰC TUYẾN 24H CHÍNH HÃNG UY TÍN CHẤT LƯỢNG",
-              "description": "Nhà thuốc phân phối tất cả các loại thuốc, thực phẩm chức năng chính hãng từ nhà sản xuất, cam kết chất lượng - giá tốt - uy tín",
+              "name": "SIÊU THỊ THUỐC 365 - AN TÂM MUA THUỐC CHÍNH HÃNG",
+              "description": "Mua thuốc, thực phẩm chức năng online chính hãng, giá ưu đãi, giao hàng toàn quốc nhanh chóng, tiện lợi.",
               "publisher": {
                 "@id": "https://sieuthithuoc365.com/#organization"
               },
@@ -182,7 +182,7 @@
                 "url": "https://s.gravatar.com/avatar/33401070ddcbb63fcce2edfd59e3ccdf",
                 "caption": "Dược Sĩ Lê Kim Oanh"
               },
-              "description": "Tôi là Lê Kim Oanh, CEO của Nhà Thuốc Uy Tín 24h, tôi luôn nỗ lực cống hiến hết mình để góp phần đẩy lùi bệnh tật mang đến cuộc sống khỏe đẹp cho những người xung quanh, cống hiến cho nền Y Dược nước nhà.",
+              "description": "Tôi là Lê Kim Oanh, CEO của Siêu Thị Thuốc 365, tôi luôn nỗ lực cống hiến hết mình để góp phần đẩy lùi bệnh tật mang đến cuộc sống khỏe đẹp cho những người xung quanh, cống hiến cho nền Y Dược nước nhà.",
               "sameAs": [
                 "https://www.facebook.com/duocsilekimoanh",
                 "https://twitter.com/duocsilekimoanh",

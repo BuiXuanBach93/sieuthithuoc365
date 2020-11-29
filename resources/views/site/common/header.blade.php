@@ -3,7 +3,7 @@
 	<div class="container">
 		  <div class="wrapper row">
         <div class="fix-pad hotline_ col-md-4 col-sm-12 col-xs-12">
-        <p class="hotline" style="color: #0073ad">Nhà thuốc uy tín 24h - An tâm mua thuốc chính hãng</p>
+        <p class="hotline" style="color: #0073ad">Siêu Thị Thuốc 365 - An tâm mua thuốc chính hãng</p>
        </div>
 			 <div class="fix-pad hotline_ col-md-3 col-sm-12 col-xs-12">
 				<p class="hotline">Hotline: <span>{{ isset($information['hotline']) ? $information['hotline'] : '' }}</span> hoặc <span>{{ isset($information['so-dien-thoai']) ? $information['so-dien-thoai'] : '' }}</span></p>
