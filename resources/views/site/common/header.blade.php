@@ -6,7 +6,7 @@
         <p class="hotline" style="color: #0073ad">Siêu Thị Thuốc 365 - An tâm mua thuốc chính hãng</p>
        </div>
 			 <div class="fix-pad hotline_ col-md-3 col-sm-12 col-xs-12">
-				<p class="hotline">Hotline: <span>{{ isset($information['hotline']) ? $information['hotline'] : '' }}</span> hoặc <span>{{ isset($information['so-dien-thoai']) ? $information['so-dien-thoai'] : '' }}</span></p>
+				<p class="hotline">Hotline: <span>{{ isset($information['hotline']) ? $information['hotline'] : '' }}</span></p>
 			 </div>
 			 <div class="fix-pad time_work col-md-5 col-sm-12 col-xs-12" style="text-align: right;">
 				<p class="clock">
