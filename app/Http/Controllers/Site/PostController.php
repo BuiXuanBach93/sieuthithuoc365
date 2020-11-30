@@ -61,6 +61,8 @@ class PostController extends SiteController
             $category = Category::join('category_post', 'categories.category_id', '=', 'category_post.category_id')
                 ->select('categories.*')
                 ->where('category_post.post_id', $post->post_id)
+                ->where('categories.parent','=', 0)
+                ->whereNull('category_post.deleted_at')
                 ->first();
 
             if (empty($category)) {
