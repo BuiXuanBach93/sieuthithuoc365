@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTP_HOST} www.sieuthithuoc365.com
-RewriteRule (.*)$ https://sieuthithuoc365.com/$1 [R=301,L]
+RewriteRule (.*)$ https://sieuthithuoc365.com$1 [R=301,L]
 </IfModule>
 
 <IfModule mod_rewrite.c>
