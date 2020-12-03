@@ -107,8 +107,7 @@
                </div>
                <div class="col-xs-12">
                   <div >
-                  <a href="//www.dmca.com/Protection/Status.aspx?ID=28950627-5cc9-4c84-896f-ca37720143be" title="DMCA.com Protection Status" class="dmca-badge"> <img class="lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY/j//z8ABf4C/qc1gYQAAAAASUVORK5CYII=" data-src ="https://images.dmca.com/Badges/dmca-badge-w150-5x1-07.png?ID=28950627-5cc9-4c84-896f-ca37720143be"  alt="DMCA.com Protection Status" /></a>  
-                  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                  <a href="//www.dmca.com/Protection/Status.aspx?ID=9d418c0e-b1a8-4630-bb75-d06fc06eb1b8" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-07.png?ID=9d418c0e-b1a8-4630-bb75-d06fc06eb1b8"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
                </div>   
                </div>
                <div class="ban_quyen col-xs-12">
