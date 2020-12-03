@@ -1,25 +1,7 @@
-Deny from 14.177.239.247
-Deny from 1.55.164.54
-Deny from 14.162.167.44
-Deny from 5.188.210.61
-Deny from 5.188.210.27
-Deny from 185.217.71.152
-Deny from 5.248.225.93
-Deny from 37.115.216.65
-Deny from 62.210.83.206
-Deny from 37.115.197.74
-Deny from 62.210.180.164
-Deny from 37.115.204.215
-Deny from 213.239.216.194
-Deny from 178.63.34.189
-Deny from 109.70.100.28
-Deny from 60.219.187.142
-Deny from 111.126.50.138
-
 <IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^103\.101\.163\.141
-RewriteRule ^(.*)$ https://sieuthithuoc365.com/$1 [R=301,L]
+RewriteEngine On
+RewriteCond %{HTTP_HOST} www.sieuthithuoc365.com
+RewriteRule (.*)$ https://sieuthithuoc365.com/$1 [R=301,L]
 </IfModule>
 
 <IfModule mod_rewrite.c>
@@ -30,9 +12,6 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R]
 RewriteRule    ^$ public/    [L]
 RewriteRule    (.*) public/$1 [L]
 </IfModule>
-
-Redirect 301 /sieuthithuoc365.com/cua-hang/cham-soc-suc-khoe /cua-hang/san-pham
-
 
 <IfModule mod_expires.c>
 ExpiresActive On
